@@ -1,0 +1,34 @@
+.connect-button-container {
+    text-align: center;
+}
+
+.connect-button-container-dark-bg {
+    background: linear-gradient(to top,  $greenLight 0%, $greenLight  50%, white 50%, white 100%);
+}
+
+.connect-button-container-dark-bg-alternate {
+    background: linear-gradient(to bottom,  $greenLight 0%, $greenLight  50%, white 50%, white 100%);
+}
+
+.connect-button-container-light-bg {
+    background: linear-gradient(to bottom,  $backgroundBlueLight 0%, $backgroundBlueLight  50%, white 50%, white 100%);
+}
+
+.connect-button {
+    background-color: $darkBlue;
+    color: $textInverted;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding: 20px 32px;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    width: calc(100% - 32px);
+    margin: 0 16px;
+    text-decoration: none;
+    @media (min-width: 768px) {
+        padding: 24px 53px;
+        width: unset;
+    }
+}
